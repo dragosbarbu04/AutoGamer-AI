@@ -11,7 +11,7 @@ The primary goal of this project was to address the challenge of AI generalisati
 
 ---
 
-## Key Features 📋
+## Key Features
 
 This framework introduces a structured layer on top of `stable-retro` to streamline research and experimentation:
 
@@ -35,7 +35,7 @@ This framework introduces a structured layer on top of `stable-retro` to streaml
 
 ---
 
-## Project Architecture 🏗️
+## Project Architecture
 
 The framework is logically decomposed into four interconnected modules that form the agent-environment feedback loop:
 
@@ -46,7 +46,7 @@ The framework is logically decomposed into four interconnected modules that form
 
 ---
 
-## Technologies Used 🛠️
+## Technologies Used
 
 This project leverages a powerful ecosystem of Python libraries for reinforcement learning and computer vision:
 
@@ -59,11 +59,11 @@ This project leverages a powerful ecosystem of Python libraries for reinforcemen
 
 ---
 
-## How to Set Up & Run 🚀
+## How to Set Up & Run
 
 ### 1. Base Installation
 
-This project depends entirely on **Stable-Retro**. Please follow the official installation instructions from the `stable-retro` README file first. It is recommended to use Ubuntu 22.04 (or WSL on Windows).
+This project depends entirely on **Stable-Retro**. Please follow the official installation instructions from the `stable-retro` README file first. It is recommended to use Ubuntu 22.04 (or WSL on Windows - **[Video Demo](https://www.youtube.com/watch?v=_oYfVAe3SHQ)**).
 
 A `requirements.txt` file is provided to install the necessary Python libraries.
 
