@@ -1,0 +1,664 @@
+Determining if the function _chmod exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5748c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5748c.dir/build.make CMakeFiles/cmTC_5748c.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5748c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_chmod -fPIE -o CMakeFiles/cmTC_5748c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5748c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5748c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_chmod -rdynamic CMakeFiles/cmTC_5748c.dir/CheckFunctionExists.c.o -o cmTC_5748c 
+/usr/bin/ld: CMakeFiles/cmTC_5748c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_chmod'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5748c.dir/build.make:99: cmTC_5748c] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5748c/fast] Error 2
+
+
+
+Determining if the function _close exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5efc0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5efc0.dir/build.make CMakeFiles/cmTC_5efc0.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5efc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_close -fPIE -o CMakeFiles/cmTC_5efc0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5efc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5efc0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_close -rdynamic CMakeFiles/cmTC_5efc0.dir/CheckFunctionExists.c.o -o cmTC_5efc0 
+/usr/bin/ld: CMakeFiles/cmTC_5efc0.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_close'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5efc0.dir/build.make:99: cmTC_5efc0] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5efc0/fast] Error 2
+
+
+
+Determining if the function _dup exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46a44/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46a44.dir/build.make CMakeFiles/cmTC_46a44.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46a44.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_dup -fPIE -o CMakeFiles/cmTC_46a44.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46a44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a44.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_dup -rdynamic CMakeFiles/cmTC_46a44.dir/CheckFunctionExists.c.o -o cmTC_46a44 
+/usr/bin/ld: CMakeFiles/cmTC_46a44.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_dup'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_46a44.dir/build.make:99: cmTC_46a44] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_46a44/fast] Error 2
+
+
+
+Determining if the function _fdopen exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17fa6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17fa6.dir/build.make CMakeFiles/cmTC_17fa6.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17fa6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fdopen -fPIE -o CMakeFiles/cmTC_17fa6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_17fa6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17fa6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_fdopen -rdynamic CMakeFiles/cmTC_17fa6.dir/CheckFunctionExists.c.o -o cmTC_17fa6 
+/usr/bin/ld: CMakeFiles/cmTC_17fa6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_fdopen'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_17fa6.dir/build.make:99: cmTC_17fa6] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_17fa6/fast] Error 2
+
+
+
+Determining if the function _fileno exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c1232/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1232.dir/build.make CMakeFiles/cmTC_c1232.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1232.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fileno -fPIE -o CMakeFiles/cmTC_c1232.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1232
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1232.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_fileno -rdynamic CMakeFiles/cmTC_c1232.dir/CheckFunctionExists.c.o -o cmTC_c1232 
+/usr/bin/ld: CMakeFiles/cmTC_c1232.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_fileno'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c1232.dir/build.make:99: cmTC_c1232] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c1232/fast] Error 2
+
+
+
+Determining if the function _open exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11928/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11928.dir/build.make CMakeFiles/cmTC_11928.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11928.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_open -fPIE -o CMakeFiles/cmTC_11928.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11928.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_open -rdynamic CMakeFiles/cmTC_11928.dir/CheckFunctionExists.c.o -o cmTC_11928 
+/usr/bin/ld: CMakeFiles/cmTC_11928.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_open'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_11928.dir/build.make:99: cmTC_11928] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_11928/fast] Error 2
+
+
+
+Determining if the function _setmode exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1bf9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1bf9b.dir/build.make CMakeFiles/cmTC_1bf9b.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bf9b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_setmode -fPIE -o CMakeFiles/cmTC_1bf9b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1bf9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bf9b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_setmode -rdynamic CMakeFiles/cmTC_1bf9b.dir/CheckFunctionExists.c.o -o cmTC_1bf9b 
+/usr/bin/ld: CMakeFiles/cmTC_1bf9b.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_setmode'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_1bf9b.dir/build.make:99: cmTC_1bf9b] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1bf9b/fast] Error 2
+
+
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f2b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f2b5.dir/build.make CMakeFiles/cmTC_6f2b5.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f2b5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_snprintf -fPIE -o CMakeFiles/cmTC_6f2b5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f2b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f2b5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_snprintf -rdynamic CMakeFiles/cmTC_6f2b5.dir/CheckFunctionExists.c.o -o cmTC_6f2b5 
+/usr/bin/ld: CMakeFiles/cmTC_6f2b5.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_snprintf'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6f2b5.dir/build.make:99: cmTC_6f2b5] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6f2b5/fast] Error 2
+
+
+
+Determining if the function _strdup exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9357f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9357f.dir/build.make CMakeFiles/cmTC_9357f.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9357f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup -fPIE -o CMakeFiles/cmTC_9357f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9357f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9357f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strdup -rdynamic CMakeFiles/cmTC_9357f.dir/CheckFunctionExists.c.o -o cmTC_9357f 
+/usr/bin/ld: CMakeFiles/cmTC_9357f.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_strdup'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9357f.dir/build.make:99: cmTC_9357f] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9357f/fast] Error 2
+
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_095ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_095ae.dir/build.make CMakeFiles/cmTC_095ae.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_095ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stricmp -fPIE -o CMakeFiles/cmTC_095ae.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_095ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_095ae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_stricmp -rdynamic CMakeFiles/cmTC_095ae.dir/CheckFunctionExists.c.o -o cmTC_095ae 
+/usr/bin/ld: CMakeFiles/cmTC_095ae.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_095ae.dir/build.make:99: cmTC_095ae] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_095ae/fast] Error 2
+
+
+
+Determining if the function _strtoi64 exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2aec1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2aec1.dir/build.make CMakeFiles/cmTC_2aec1.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2aec1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strtoi64 -fPIE -o CMakeFiles/cmTC_2aec1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2aec1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aec1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strtoi64 -rdynamic CMakeFiles/cmTC_2aec1.dir/CheckFunctionExists.c.o -o cmTC_2aec1 
+/usr/bin/ld: CMakeFiles/cmTC_2aec1.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_strtoi64'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_2aec1.dir/build.make:99: cmTC_2aec1] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2aec1/fast] Error 2
+
+
+
+Determining if the function _strtoui64 exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a23f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a23f7.dir/build.make CMakeFiles/cmTC_a23f7.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a23f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strtoui64 -fPIE -o CMakeFiles/cmTC_a23f7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a23f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a23f7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strtoui64 -rdynamic CMakeFiles/cmTC_a23f7.dir/CheckFunctionExists.c.o -o cmTC_a23f7 
+/usr/bin/ld: CMakeFiles/cmTC_a23f7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_strtoui64'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a23f7.dir/build.make:99: cmTC_a23f7] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a23f7/fast] Error 2
+
+
+
+Determining if the function _umask exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9aa8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9aa8.dir/build.make CMakeFiles/cmTC_d9aa8.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9aa8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_umask -fPIE -o CMakeFiles/cmTC_d9aa8.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d9aa8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9aa8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_umask -rdynamic CMakeFiles/cmTC_d9aa8.dir/CheckFunctionExists.c.o -o cmTC_d9aa8 
+/usr/bin/ld: CMakeFiles/cmTC_d9aa8.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_umask'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d9aa8.dir/build.make:99: cmTC_d9aa8] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d9aa8/fast] Error 2
+
+
+
+Determining if the function _unlink exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fbd6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fbd6.dir/build.make CMakeFiles/cmTC_8fbd6.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fbd6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_unlink -fPIE -o CMakeFiles/cmTC_8fbd6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8fbd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fbd6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_unlink -rdynamic CMakeFiles/cmTC_8fbd6.dir/CheckFunctionExists.c.o -o cmTC_8fbd6 
+/usr/bin/ld: CMakeFiles/cmTC_8fbd6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_unlink'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8fbd6.dir/build.make:99: cmTC_8fbd6] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8fbd6/fast] Error 2
+
+
+
+Determining if the function clonefile exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d94df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d94df.dir/build.make CMakeFiles/cmTC_d94df.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d94df.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clonefile -fPIE -o CMakeFiles/cmTC_d94df.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d94df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d94df.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clonefile -rdynamic CMakeFiles/cmTC_d94df.dir/CheckFunctionExists.c.o -o cmTC_d94df 
+/usr/bin/ld: CMakeFiles/cmTC_d94df.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `clonefile'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d94df.dir/build.make:99: cmTC_d94df] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d94df/fast] Error 2
+
+
+
+Determining if the function explict_bzero exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_576e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_576e2.dir/build.make CMakeFiles/cmTC_576e2.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_576e2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explict_bzero -fPIE -o CMakeFiles/cmTC_576e2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_576e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_576e2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=explict_bzero -rdynamic CMakeFiles/cmTC_576e2.dir/CheckFunctionExists.c.o -o cmTC_576e2 
+/usr/bin/ld: CMakeFiles/cmTC_576e2.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `explict_bzero'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_576e2.dir/build.make:99: cmTC_576e2] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_576e2/fast] Error 2
+
+
+
+Determining if the function explicit_memset exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79d6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79d6f.dir/build.make CMakeFiles/cmTC_79d6f.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79d6f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_memset -fPIE -o CMakeFiles/cmTC_79d6f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_79d6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79d6f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=explicit_memset -rdynamic CMakeFiles/cmTC_79d6f.dir/CheckFunctionExists.c.o -o cmTC_79d6f 
+/usr/bin/ld: CMakeFiles/cmTC_79d6f.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `explicit_memset'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_79d6f.dir/build.make:99: cmTC_79d6f] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_79d6f/fast] Error 2
+
+
+
+Determining if the function getprogname exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_891ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_891ae.dir/build.make CMakeFiles/cmTC_891ae.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_891ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getprogname -fPIE -o CMakeFiles/cmTC_891ae.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_891ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_891ae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getprogname -rdynamic CMakeFiles/cmTC_891ae.dir/CheckFunctionExists.c.o -o cmTC_891ae 
+/usr/bin/ld: CMakeFiles/cmTC_891ae.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `getprogname'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_891ae.dir/build.make:99: cmTC_891ae] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_891ae/fast] Error 2
+
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a6ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a6ce.dir/build.make CMakeFiles/cmTC_6a6ce.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a6ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setmode -fPIE -o CMakeFiles/cmTC_6a6ce.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a6ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a6ce.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setmode -rdynamic CMakeFiles/cmTC_6a6ce.dir/CheckFunctionExists.c.o -o cmTC_6a6ce 
+/usr/bin/ld: CMakeFiles/cmTC_6a6ce.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6a6ce.dir/build.make:99: cmTC_6a6ce] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6a6ce/fast] Error 2
+
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e149a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e149a.dir/build.make CMakeFiles/cmTC_e149a.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e149a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stricmp -fPIE -o CMakeFiles/cmTC_e149a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e149a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e149a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=stricmp -rdynamic CMakeFiles/cmTC_e149a.dir/CheckFunctionExists.c.o -o cmTC_e149a 
+/usr/bin/ld: CMakeFiles/cmTC_e149a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `stricmp'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e149a.dir/build.make:99: cmTC_e149a] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e149a/fast] Error 2
+
+
+
+Determining size of __int8 failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9ccc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9ccc.dir/build.make CMakeFiles/cmTC_d9ccc.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9ccc.dir/__INT8_LIBZIP.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_d9ccc.dir/__INT8_LIBZIP.c.o -c /home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:27:22: error: ‘__int8’ undeclared here (not in a function); did you mean ‘u_int’?
+   27 | #define SIZE (sizeof(__int8))
+      |                      ^~~~~~
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_d9ccc.dir/build.make:78: CMakeFiles/cmTC_d9ccc.dir/__INT8_LIBZIP.c.o] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d9ccc/fast] Error 2
+
+
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0cf27/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0cf27.dir/build.make CMakeFiles/cmTC_0cf27.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cf27.dir/__INT16_LIBZIP.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_0cf27.dir/__INT16_LIBZIP.c.o -c /home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:27:22: error: ‘__int16’ undeclared here (not in a function); did you mean ‘__int16_t’?
+   27 | #define SIZE (sizeof(__int16))
+      |                      ^~~~~~~
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_0cf27.dir/build.make:78: CMakeFiles/cmTC_0cf27.dir/__INT16_LIBZIP.c.o] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0cf27/fast] Error 2
+
+
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_429eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_429eb.dir/build.make CMakeFiles/cmTC_429eb.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_429eb.dir/__INT32_LIBZIP.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_429eb.dir/__INT32_LIBZIP.c.o -c /home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:27:22: error: ‘__int32’ undeclared here (not in a function); did you mean ‘__int32_t’?
+   27 | #define SIZE (sizeof(__int32))
+      |                      ^~~~~~~
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_429eb.dir/build.make:78: CMakeFiles/cmTC_429eb.dir/__INT32_LIBZIP.c.o] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_429eb/fast] Error 2
+
+
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/sky/github/stable-retro/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_becb6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_becb6.dir/build.make CMakeFiles/cmTC_becb6.dir/build
+gmake[1]: Entering directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_becb6.dir/__INT64_LIBZIP.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_becb6.dir/__INT64_LIBZIP.c.o -c /home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:27:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+   27 | #define SIZE (sizeof(__int64))
+      |                      ^~~~~~~
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_becb6.dir/build.make:78: CMakeFiles/cmTC_becb6.dir/__INT64_LIBZIP.c.o] Error 1
+gmake[1]: Leaving directory '/home/sky/github/stable-retro/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_becb6/fast] Error 2
+
+
+/home/sky/github/stable-retro/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O2 -g -DNDEBUG -shared  -o libnonrandomopen.so CMakeFiles/nonrandomopen.dir/nonrandomopen.c.o  -ldl 

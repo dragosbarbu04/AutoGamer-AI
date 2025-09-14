@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG -rdynamic CMakeFiles/ziptool_regress.dir/ziptool_regress.c.o CMakeFiles/ziptool_regress.dir/source_hole.c.o -o ziptool_regress  ../lib/libzip.a -lz 

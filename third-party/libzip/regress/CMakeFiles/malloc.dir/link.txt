@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O2 -g -DNDEBUG -shared  -o libmalloc.so CMakeFiles/malloc.dir/malloc.c.o  -ldl 
